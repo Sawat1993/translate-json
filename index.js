@@ -53,9 +53,11 @@ const inputJsonFiles = fs.readdirSync('./files/input-json/');
 const inputXlsFiles = fs.readdirSync('./files/input-xls/');
 
 for (const inputJsonFile of inputJsonFiles) {
-    for (const inputXlsFile of inputXlsFiles) {
-        if (inputXlsFile.includes('xls')) {
-            translate(inputJsonFile, inputXlsFile);
+    if(inputJsonFile.includes('json')){
+        for (const inputXlsFile of inputXlsFiles) {
+            if (inputXlsFile.includes('xls')) {
+                translate(inputJsonFile, inputXlsFile);
+            }
         }
     }
 }
