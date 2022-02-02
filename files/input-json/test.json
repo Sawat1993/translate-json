@@ -1,0 +1,31 @@
+{
+  "label": "Autos",
+  "subs": [
+    {
+      "label": "SUVs",
+      "subs": ["a", "b"]
+    },
+    {
+      "label": "Trucks",
+      "subs": [
+        {
+          "label": "2 Wheel Drive",
+          "subs": []
+        },
+        {
+          "label": "4 Wheel Drive",
+          "subs": [
+            {
+              "label": "Ford",
+              "subs": []
+            },
+            {
+              "label": "Chevrolet",
+              "subs": []
+            }
+          ]
+        }
+      ]
+    }]
+}
+  

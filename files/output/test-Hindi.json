@@ -1,0 +1,34 @@
+{
+    "label": "Autos",
+    "subs": [
+        {
+            "label": "SUVs",
+            "subs": [
+                "ट्रक",
+                "b"
+            ]
+        },
+        {
+            "label": "ट्रक",
+            "subs": [
+                {
+                    "label": "2 Wheel Drive",
+                    "subs": []
+                },
+                {
+                    "label": "4 Wheel Drive",
+                    "subs": [
+                        {
+                            "label": "ट्रक",
+                            "subs": []
+                        },
+                        {
+                            "label": "Chevrolet",
+                            "subs": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
